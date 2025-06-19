@@ -1,0 +1,219 @@
+/* Mobile Small Screen  */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+/* Responsive Home Page Start */
+/* Taplet Screen */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .marginPage {
+        margin-top: 220px;
+    }
+
+    .StatisticsProfile .topContent {
+        margin-bottom: 40px;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width: 767px) {
+
+    .slideBar {
+        width: 100%;
+        /* يغطي العرض بالكامل */
+        left: -100%;
+        /* مخفي برضو */
+    }
+
+    .slideBar.active {
+        left: 0;
+        /* يظهر يغطي الشاشة */
+    }
+
+    body.active {
+        padding-left: 0 !important;
+        /* نمنع أي تزحزح */
+        overflow: hidden;
+        /* يمنع التمرير في الخلفية */
+    }
+
+
+    .boxProfile {
+        top: 200px
+    }
+
+    .resOurCourses {
+        margin: 190px 0 120px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    header nav .searchField {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    header nav .searchField input {
+        width: 100%;
+    }
+}
+
+/* Responsive Home Page End */
+/* /////////////////////////////////////////////////// */
+/* Responsive About Page Start */
+@media (max-width: 767px) {
+
+    .aboutSec {
+        margin: 150px 0 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .aboutSec {
+        margin-bottom: 50px;
+    }
+
+    .aboutSec .aboutContent {
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .aboutSec .aboutContent img {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+/* Responsive About Page End */
+/* /////////////////////////////////////////////////// */
+/* Responsive Courses Page Start */
+@media (max-width: 767px) {
+    .ourCourses .boxes-container {
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive Courses Page End */
+/* /////////////////////////////////////////////////// */
+/* Responsive Contact Page Start */
+/* Mobile */
+@media (min-width: 768px) {
+    .contactPage .contactContent {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .contactPage .contactContent .image img {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .contactPage .contactContent {
+        flex-direction: column;
+    }
+
+    .contactPage .contactContent .image img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Responsive Contact Page End */
+/* ///////////////////////////////////////////////// */
+/* Responsive Preview Video Page Start */
+
+@media (max-width: 767px) {
+    .videoPage .videoContainer {
+        margin-top: 220px;
+    }
+
+    .videoPage .videoContainer h3 {
+        font-size: 15px;
+    }
+
+    .videoPage .videoContainer .viewSec a.btn,
+    .videoPage .videoContainer .viewSec a.like {
+        padding: 5px 20px;
+    }
+
+    .videoPage .videoContainer .viewSec a.like {
+        margin-top: 10px;
+    }
+
+    .videoPage .videoContainer .pContainer {
+        font-size: 15px;
+    }
+
+    .videoPage .commentsContainer p {
+        font-size: 15px;
+    }
+
+    .videoPage .commentsContainer .btns .editBtn,
+    .videoPage .commentsContainer .btns .deleteBtn {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .registerPage {
+        margin: 225px 0 120px;
+    }
+
+}
+
+/* Responsive Preview Video Page Start */
+/* ///////////////////////////////////////////////// */
+/* Responsive Statistics Profile Page Start */
+@media (max-width: 767px) {
+
+    .StatisticsProfile .topContent {
+        margin-bottom: 60px;
+    }
+}
+
+/* Responsive Statistics Profile Page End */
+/* ///////////////////////////////////////////////// */
+/* Responsive view playlist Start */
+
+@media (max-width: 767px) {
+
+    .viewPlaylist .topBoxContainer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .viewPlaylist .topBoxContainer .imgBox {
+        margin-right: 0;
+    }
+
+    .viewPlaylist .topBoxContainer .imgBox img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .viewPlaylist .topBoxContainer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Responsive view playlist End */
